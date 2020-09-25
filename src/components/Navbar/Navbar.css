@@ -1,0 +1,43 @@
+* {
+    /* border : 1px solid black */
+}
+.cont-navbar {
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    z-index: 999;
+}
+.navbar {
+    background-color: rgb(32, 32, 32);
+    color: white;
+}
+.navbar-brand {
+    font-size: 30px;
+}
+.navbar-toggler:focus {
+    outline: none;
+}
+.nav-link, .navbar-brand {
+    color: white;
+}
+.nav-link {
+    font-weight: 600;
+}
+.nav-link:hover, .navbar-brand:hover {
+    color: rgb(144, 30, 148);
+}
+.nav-link:focus {
+    color: rgb(144, 30, 148);
+}
+.nav-item {
+    margin-left: 25px;
+}
+.icon-menu {
+    color: rgb(144, 30, 148);
+}
+.container-nav {
+    text-align: right;
+}
+.collapse {
+    margin-left: 23vw;
+}

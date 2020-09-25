@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@300&display=swap');
+
+.header-cont {
+    background-image: url(../../images/parallab-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 25px;
+    height: 485px;
+}
+.main-cont {
+    position: relative;
+    top: 60px;
+    width: 65%;
+    margin: auto;
+    color: teal;
+    color: white;
+}
+.cont-1 {
+    width: 50%;
+    display: inline-block;
+    height: 400px;
+    background-image: url(../../images/man.jpg);
+    background-size: cover;
+    background-position: 0 -6vw;
+    filter: grayscale(0.6);
+}
+.cont-2 {
+    width: 50%;
+    display: inline-block;
+    position: relative;
+    top: -65px;
+    height: 400px;
+    background-color: rgb(32,32,32);
+    padding-left: 2vw;
+    font-family: 'Tajawal', sans-serif;
+}
+.title-name {
+    margin-top: 25px;
+    font-size: 35px;
+    font-weight: bold;
+}
+.title-programmer {
+    margin-top: -20px;
+    font-size: 20px;
+}
+.phone {
+    color:  rgb(144, 30, 148);
+    font-weight: bold;
+}
+.title-phone {
+    margin-top: -10px;
+    font-size: 21px;
+}
+.sect2 {
+    margin-top: -10px;
+}
+.cont-3 {
+    height: 75px;
+    margin-top: -6px;
+    position: relative;
+    top: -59px;
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(144, 30, 148);
+}
+.logo {
+    width: 30px;
+    height: 30px;
+    margin: 15px;
+}
+
+
+
+
+@media screen and (max-width:800px) {
+    .main-cont {
+        width: 70%;
+        margin: auto;
+    }
+    .cont-1, .cont-2 {
+        width: 100%;
+        height: 340px;
+    }
+    .cont-2 {
+        top: -7px;
+        height: 400px;
+    }
+    .cont-3{
+        top: -26px;
+    }
+}
+
