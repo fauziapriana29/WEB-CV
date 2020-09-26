@@ -12,22 +12,22 @@ const Navbar = () => {
                 <div className="container container-nav">
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul className="navbar-nav mr-auto">
-                        <li className="nav-item">
+                        <li className="nav-item active">
                             <a className="nav-link" href="#1">BIO DATA</a>
                         </li>
-                        <li className="nav-item">
+                        <li className="nav-item active">
                             <a className="nav-link" href="#2">INTRODUCE</a>
                         </li>
-                        <li className="nav-item">
+                        <li className="nav-item active">
                             <a className="nav-link" href="#3">EXPERIENCE</a>
                         </li>
-                        <li className="nav-item">
+                        <li className="nav-item active">
                             <a className="nav-link" href="#">EDUCATION</a>
                         </li>
-                        <li className="nav-item">
+                        <li className="nav-item active">
                             <a className="nav-link" href="#">SKILLS</a>
                         </li>
-                        <li className="nav-item">
+                        <li className="nav-item active">
                             <a className="nav-link" href="#">CONTACT</a>
                         </li>
                         </ul>

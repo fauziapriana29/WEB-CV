@@ -70,7 +70,10 @@
     height: 30px;
     margin: 15px;
 }
-
+.logo:hover {
+    background-color: rgb(192, 157, 201);
+    border-radius: 10px;
+}
 
 
 
@@ -96,14 +99,18 @@
 
 
 @media screen and (max-width: 360px) {
+    .header-cont {
+        background-attachment: fixed;
+    }
+    
     .cont-1 {
         height: 270px;
     }
     .cont-2 .title-name {
-        font-size: 9vw;
+        font-size: 8vw;
     }
     .cont-3 {
-        top: -9px;
+        top: -10vw;
         height: 60px;
     }
 }
