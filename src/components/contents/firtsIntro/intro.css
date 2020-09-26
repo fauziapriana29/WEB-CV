@@ -9,9 +9,9 @@
     margin: auto;
 }
 
-@media screen and (max-width:800px) {
+@media screen and (max-width:720px) {
     .jumbotron {
-        padding-top: 400px;
+        padding-top: 550px;
         width: 100%;
     }
     .cont-desc {

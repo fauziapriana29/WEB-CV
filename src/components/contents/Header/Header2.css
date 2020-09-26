@@ -74,14 +74,16 @@
 
 
 
-@media screen and (max-width:800px) {
+@media screen and (max-width:720px) {
     .main-cont {
         width: 70%;
         margin: auto;
     }
     .cont-1, .cont-2 {
         width: 100%;
-        height: 340px;
+    }
+    .cont-1 {
+        margin-top: 40px;
     }
     .cont-2 {
         top: -7px;
