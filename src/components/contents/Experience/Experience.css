@@ -3,17 +3,20 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 41.5vw;
+    height: 47.5vw;
     background-image: url(../../images/tik-mecine.jpg);
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
+    padding-top: -4vw;
+    margin-bottom: 25vw;
 }
 .title-experience {
     color:  rgb(194, 116, 197);
     -webkit-text-stroke: black;
     -webkit-text-stroke-width: 1.5px;
     font-weight: bold;
+    margin-top: 8vw;
 }
 .title-content {
     display: flex;
@@ -66,6 +69,7 @@
     }
     .head-title {
         font-size: 10px;
+        font-weight: bold;
     }
     .p-title {
         font-size: 10px;
@@ -73,6 +77,9 @@
 
 }
 @media screen and (max-width: 360px) {
+    .head-title {
+        font-weight: bold;
+    }
     .cont-year {
         padding-top: 4vw;
     }

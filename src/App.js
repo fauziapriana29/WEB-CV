@@ -6,6 +6,7 @@ import Content from './components/contents/contents'
 import Header from './components/contents/Header/Header2.jsx'
 import Intro from './components/contents/firtsIntro/intro.jsx'
 import Experiance from './components/contents/Experience/Experience.jsx'
+import Education from './components/contents/Education/Education.jsx'
 
 function App() {
   return (
@@ -14,7 +15,9 @@ function App() {
       <div className="cont-contents">
         <Header />
         <Intro/>
-        <Experiance/>
+        <Experiance />
+        <Education/>
+        <Content id={"5"}/>
       </div>
     </div>
   );
