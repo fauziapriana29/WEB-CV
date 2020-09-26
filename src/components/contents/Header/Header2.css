@@ -94,3 +94,16 @@
     }
 }
 
+
+@media screen and (max-width: 360px) {
+    .cont-1 {
+        height: 270px;
+    }
+    .cont-2 .title-name {
+        font-size: 9vw;
+    }
+    .cont-3 {
+        top: -9px;
+        height: 60px;
+    }
+}
