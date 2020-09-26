@@ -48,17 +48,18 @@
     color: white;
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 480px) {
 
     .cont-experience {
         height: 114vw;
+        background-attachment: fixed;
     }
     .cont-year {
         justify-content: normal;
-        padding-top: 4vw;
+        padding-top: 13vw;
     }
     .p-year {
-        margin-top: 22vw;
+        margin-top: 20.5vw;
     }
     .cont-year, .cont-company {
         height: 72vw;
@@ -70,4 +71,12 @@
         font-size: 10px;
     }
 
+}
+@media screen and (max-width: 360px) {
+    .cont-year {
+        padding-top: 4vw;
+    }
+    .p-year{
+        margin-top: 22vw;;
+    }
 }
