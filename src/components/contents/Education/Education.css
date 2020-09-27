@@ -1,13 +1,79 @@
 .main-cont-education {
-    width: 100%;
-    height: 42vw;
+    width: 80%;
+    margin: auto;
+    height: 100vh;
     background-color: rgb(233,236,239);
-    padding-top: 10vw;
+    padding-top: 8vw;
 }
 .main-cont-education .content-education {
     color: white;
     color: rgba(0, 0, 0, 0.808);
 }
 .content-education h1 {
-    /* color: white; */
+    text-align: center;
+}
+.content-education2 {
+    display: flex;
+    background-image: url(../../images/rock-wheel.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.year-education {
+    width: 50%;
+    height: 64vh;
+    text-align: right;
+    padding-right: 3vw;
+    padding-top: 9.5vh;
+    background-color: rgba(32, 32, 32, 0.5);
+    color: rgb(104, 12, 104);
+}
+.school-year {
+    margin-bottom: 49px;
+    line-height: 60px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    padding-right: 20px;
+}
+.school-education {
+    width: 50%;
+    height: 64vh;
+    padding-left: 3vw;
+    padding-top: 9.5vh;
+    background-color: rgb(32, 32, 32, 0.5);
+    color: black;
+}
+.school-education h3, .year-education h3  {
+    font-size: 2.1vw;
+    background-color: rgba(255, 255, 255, 0.705);
+    height: 70px;
+}
+.school {
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    padding-left: 20px;
+}
+.school-name2 {
+    margin-top: 50px;
+    line-height: 60px;
+}
+.school-name3 {
+    margin-top: 50px;
+    line-height: 60px;
+}
+
+
+@media screen and (max-width: 480px) {
+    .school-name2 {
+        margin-top: 73px;
+    }
+    .school-education h3, .year-education h3 {
+        font-size: large;
+    }
+    .year2 {
+        margin-top: 116px;
+    }
+
 }
