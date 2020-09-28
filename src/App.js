@@ -7,6 +7,7 @@ import Header from './components/contents/Header/Header2.jsx'
 import Intro from './components/contents/firtsIntro/intro.jsx'
 import Experiance from './components/contents/Experience/Experience.jsx'
 import Education from './components/contents/Education/Education.jsx'
+import Skills from './components/contents/Skills/Skills.jsx'
 
 function App() {
   return (
@@ -16,8 +17,9 @@ function App() {
         <Header />
         <Intro/>
         <Experiance />
-        <Education/>
-        <Content id={"5"}/>
+        <Education />
+        <Skills/>
+        <Content id={"6"}/>
       </div>
     </div>
   );
