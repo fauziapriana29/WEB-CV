@@ -7,7 +7,7 @@ const Experience = () => {
             <div className="title-experience"><h1>EXPERIENCE</h1></div>
             <div className="title-content">
                 <div className="cont-content cont-year">
-                    <div className="year1">
+                    <div className="year1 wow slideInUp">
                         <h3 className="head-title">2019-2020</h3>
                         <p className="p-title">Material Handler</p>
                     </div>

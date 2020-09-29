@@ -23,10 +23,10 @@ const Header2 = () => {
                         <p className="title-phone">29th April 1999</p>
                 </div>
                 <div className="cont-3 wow slideInUp">
-                <a href="https://www.instagram.com/fauziaprianapnb/?hl=id" ><img src={instagram} alt="" srcset="" className="logo wow slideInUp" data-wow-delay=".3s"/></a>
-                    <a href="https://twitter.com/AprianaFauzi" ><img src={twitter} alt="" srcset=""  className="logo wow slideInUp" data-wow-delay=".4s"/></a>
-                    <a href="https://www.facebook.com/fauzi.apriana.5/" ><img src={facebook} alt="" srcset=""  className="logo wow slideInUp" data-wow-delay=".5s"/></a>
-                    <a href="https://www.linkedin.com/in/fauzi-apriana-01541a1b8/" ><img src={linkedin} alt="" srcset="" className="logo wow slideInUp" data-wow-delay=".6s"/></a>
+                <a href="https://www.instagram.com/fauziaprianapnb/?hl=id" ><img src={instagram} alt="" srcSet="" className="logo wow slideInUp" data-wow-delay=".3s"/></a>
+                    <a href="https://twitter.com/AprianaFauzi" ><img src={twitter} alt="" srcSet=""  className="logo wow slideInUp" data-wow-delay=".4s"/></a>
+                    <a href="https://www.facebook.com/fauzi.apriana.5/" ><img src={facebook} alt="" srcSet=""  className="logo wow slideInUp" data-wow-delay=".5s"/></a>
+                    <a href="https://www.linkedin.com/in/fauzi-apriana-01541a1b8/" ><img src={linkedin} alt="" srcSet="" className="logo wow slideInUp" data-wow-delay=".6s"/></a>
                 </div>
             </div>
         </div>

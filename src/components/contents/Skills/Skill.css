@@ -1,12 +1,12 @@
 .main-cont-skills {
     width: 100%;
     height: 100%;
+    /* background-image: url(../../images/bgSuccess.jpg); */
     background-attachment: fixed;
     background-size: cover;
-    background-position: center;
+    background-position: top;
 }
 .skills-content {
     padding-top: 100px;
-    background-color: rgba(137, 43, 226, 0.418);
     height: 100%;
 }
